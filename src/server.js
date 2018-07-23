@@ -6,6 +6,7 @@ import compression from 'compression';
 import apicache from 'apicache';
 import config from './config/config';
 import cors from './config/cors';
+import admin from './config/firebase';
 
 import { requestLogger, errorLogger } from './config/logger';
 
